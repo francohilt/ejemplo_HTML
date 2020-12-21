@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-----METADATOS----->
+	<meta charset="utf-8"> <!--Para que nos tome los acentos y simbolos raros-->
+	<meta name="keywords" content="primer,pagína,web,HTML"> <!--Palabras claves-->
+	<meta name=author content="Franco Hilt">
+	<meta name="robots" content="index"> <!--Para que google la indexe y la muestre-->
+	<title>Primera página web</title> 
+	<link rel="icon" href="images/logo.ico"> <!--Para poner un icono a la página-->
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<!--Enlaces locales: para redirigirte a otra página-->
+				<li><a href="paginasSecundarias/contacto.html">Contacto</a> </li>
+				<li><a href="paginasSecundarias/acercaDe.html">AcercaDe</a> </li>
+
+				<!--Enlaces externos: para redirigirte a otra pagína en una pestaña nueva-->
+				<li><a href="https://google.com" target="_BLANK">Google</a> </li>
+			</ul>
+		</nav>
+	</header>
+	<a href="#registros">Registrados</a> <!--Sirve para que la página nos dirija a donde quedramos-->
+	<p> <!-- <b></b>: negrita-->
+		<b>Lorem</b> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. <br> <!-- Para terminar de completar la linea -->
+		Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+
+	<ul> <!-- ul: listas desordenadas-->
+		<li>agua</li> <!-- li: elementos de la lista-->
+		<li>soda</li>
+		<li>gaseosa</li>
+	</ul>
+
+	<ol> <!-- ol: listas ordenadas-->
+		<li>agua</li> 
+		<li>soda</li>
+		<li>gaseosa</li>
+	</ol>
+
+	<!-----IMAGENES----->
+	<img src="images/logo.png" width="200px">
+
+	<!-----VIDEOS----->
+	<video src="videos/video.mp4" controls="" width="600px"></video>
+	<br>
+	<!-----FORMULARIOS----->
+	<form>
+		<input type="text" name="nombre" required="">
+		<input type="text" name="apellido" required="">
+		<input type="number" name="dni" required="">
+		<input type="email" name="email" required="">
+		<input type="date" name="fechaNac" required="">
+		<input type="submit">
+	</form>
+	<br>
+	<table id="registros">
+		<tr>
+			<td><b>Nombre</b></td>
+			<td><b>Apellido</b></td>
+			<td><b>DNI</b></td>
+			<td><b>Email</b></td>	
+			<td><b>Fecha de Nacimiento</b></td>
+		</tr>
+		<tr>
+			<td>Franco</td>
+			<td>Hilt</td>
+			<td>41207909</td>
+			<td>ivanfranco636@gmail.com</td>
+			<td>11/05/1998</td>
+		</tr>
+	</table>
+</body>
+
+</html>
